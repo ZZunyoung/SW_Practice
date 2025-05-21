@@ -48,7 +48,7 @@ pipeline {
                          --details=tree \
                          --details-theme=ascii \
                          --reports-dir ${REPORT_DIR} \
-                         --config=junit.platform.output.capture.stdout=true \
+                         --report-type junit \
                          --config=junit.platform.reporting.open.xml.enabled=true \
                          > ${REPORT_DIR}/test-output.txt
                 '''
