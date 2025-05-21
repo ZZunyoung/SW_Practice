@@ -16,9 +16,9 @@ class StudentManagerTest {
 
 	@Test
 	void testAddStudent() {
-		studentManager.addStudent("박준영");
+		studentManager.addStudent("김철수");
 		
-		assertTrue(studentManager.hasStudent("박준영"));
+		assertTrue(studentManager.hasStudent("김철수"));
 	}
 
 	@Test
